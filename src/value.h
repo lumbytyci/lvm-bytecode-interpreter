@@ -1,6 +1,8 @@
 #ifndef lvm_value_h
 #define lvm_value_h
 
+#include <stddef.h>
+
 #define value float
 
 typedef struct {
