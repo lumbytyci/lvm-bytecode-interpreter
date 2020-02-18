@@ -17,3 +17,9 @@ int write_value_array(value_array *va, value val) {
 
     return va->count++;
 }
+
+void free_value_array(value_array *va) {
+    va->capacity = 0;
+    va->count = 0;
+    free(va->values);
+}

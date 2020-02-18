@@ -13,5 +13,6 @@ typedef struct {
 
 void init_value_array(value_array *, size_t);
 int write_value_array(value_array *, value);
+void free_value_array(value_array *);
 
 #endif

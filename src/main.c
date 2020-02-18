@@ -16,8 +16,8 @@ int main(int argc, char **argv) {
         printf("%li | %g\n",i, va->values[i]);
     }
 
-    free(va);
-    va = NULL;
+    free_value_array(va);
+
 
     return 0;
 }
